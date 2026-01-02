@@ -1,0 +1,35 @@
+{
+  "name": "eduna-sdk",
+  "version": "1.0.0",
+  "description": "Official SDK for Eduna AI - Educational AI assistant by EduTok",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "bin": {
+    "eduna": "./bin/cli.js"
+  },
+  "scripts": {
+    "postinstall": "node bin/postinstall.js"
+  },
+  "keywords": [
+    "eduna",
+    "edutok",
+    "ai",
+    "education",
+    "chatbot",
+    "educational",
+    "assistant",
+    "brazil",
+    "portuguese"
+  ],
+  "author": "EduTok Team",
+  "license": "MIT",
+  "homepage": "https://edutok.replit.app/devtools/apikeys",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edutok/eduna-sdk"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {}
+}
